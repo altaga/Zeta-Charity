@@ -1,0 +1,55 @@
+:root {
+  --padding-top: 12vh;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+.header-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: var(--padding-top);
+  background-color: #004b38;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 4px 20px 0px 20px; 
+}
+
+.main-absolute {
+  position: absolute;
+  top: var(--padding-top);
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+  background-color: #005741;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 1px 0px 0px 0px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+.side-bar {
+  width: 20%;
+  height: 100%;
+  background-color: #004b38;
+  border-width: 0px 1px 0px 0px;
+  border-color: #ffffff;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
