@@ -1,6 +1,8 @@
 "use client";
 
 import { createWeb3Modal, defaultConfig } from "@web3modal/ethers5/react";
+import React from "react";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 // 1. Get projectId at https://cloud.walletconnect.com
 const projectId = process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID;
@@ -49,6 +51,23 @@ createWeb3Modal({
   enableOnramp: true, // Optional - false as default
 });
 
+// Theme Provider
+
+const theme = createTheme({
+  palette: {
+    zeta: {
+      main: "#570016",
+      light: "#800020",
+      dark: "#400010",
+      contrastText: "#1a0006",
+    },
+  },
+});
+
 export function Web3Modal({ children }) {
-  return children;
+  return (
+    <React.Fragment>
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
+    </React.Fragment>
+  );
 }
