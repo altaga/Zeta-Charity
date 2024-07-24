@@ -4,7 +4,7 @@
 
 <p>
 
-Zeta Charity is a Zeta Chain and BTC based decentralized streaming platform where creators can create charity-based streams for social, environmental and economic causes.
+Zeta Charity is a ZETA and BTC based decentralized streaming platform where creators can create charity-based streams for social, environmental and economic causes.
 
 # Watch our demo video:
 
