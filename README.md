@@ -8,7 +8,7 @@ Zeta Charity is a ZETA and BTC based decentralized streaming platform where crea
 
 # Watch our demo video:
 
-[![Demo](https://i.ibb.co/j3DCtPZ/image.png)](Pending...)
+[![Demo](https://i.ibb.co/ts552Ph/image.png)](https://youtu.be/GBnycUAlv4E)
 
 # Test the product:
 
